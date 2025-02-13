@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="slide active" id="birthday-slide">
+        <div id="photo-container">
+            <img class="photo" src="one.jpg" alt="Your Photo 1">
+            <img class="photo" src="two.jpg" alt="Your Photo 2">
+            <img class="photo" src="three.jpg" alt="Your Photo 3">
+            <img class="photo" src="four.jpg" alt="Your Photo 3">
+            <img class="photo" src="five.jpg" alt="Your Photo 3">
+            <img class="photo" src="six.jpg" alt="Your Photo 3">
+            <img class="photo" src="seven.JPG" alt="Your Photo 3">
+            <img class="photo" src="eight.JPG" alt="Your Photo 3">
+        </div>
+        <h1 class="animate-text">Happy Birthday, Mero putaaaa 🎂💕</h1>
+        <p id="wish">Happy birthday my honey,I hope you reach all
+            your goals
+            this year
+            and be happy and healthy. and keep shining as always my best friend, girly pop, baby, nhuggaa, wifey and
+            mwwwwaaaaaahhhhhhhhhh
+        </p>
+        <button onclick="nextSlide()">Next</button>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="firstdate.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>The day we went in our first date to eat momo at harati</p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="christmas.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>When you came home after christmas and i couldnt cut the cake lol, </p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="angeyochicken.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>Us trying our first fried chicken and onion rings together in angeyo chicken</p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="hideseek.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>Showing each other's hide and seek biscuit, Hide and seek is our favourite biscuit hai</p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="homemomo.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>Us cooking aambo momo together</p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="pasta.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>Eating my 1st attempt failed mac and cheese and pasta </p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="mocha.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>We trying Matcha boba tea together for the first time</p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="samosa.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>Eating samosa together after college</p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="delimecafe.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>In delima cafe where we tasted cappuccino</p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="classfirst.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>Best day in class, sitting for the first time in class together and eating bebu's tiffin </p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="computerlab.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>Doing random clicks in lab</p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="love.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>Posing heart in camera</p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="kurkure.JPG" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>Trying new flavour chips and loved it.</p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="skitchen.JPG" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>Us in S Kitchen hungry and tired and lost, but had the best and tastiest momo</p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="burgerhouse.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>When I tried to rizz you by telling you to sniff my neck and kiss you in forehead but failed
+                </p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="film.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>We went to watch movie in hall for the first time</p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="masala.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>You bought me white jacket this day , and we couldn't find masala beads and had ice cream together
+                </p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <h1>✨ Special Memories 💖</h1>
+            <div class="image-container">
+                <img class="memory" src="gunpoint.JPG" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+                <p>We cannot forget our gunpoint photo lol </p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <div class="image-container">
+                <img class="child" src="baby.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+                <p>When we were little hehe, look at us
+                </p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="message-slide">
+        <div class="container">
+            <div class="image-container">
+                <img class="child1" src="sofa.jpg" alt="Your Photo 1">
+            </div>
+            <div class="text-container">
+
+                <p>Us Now hehe</p>
+                <div class="button-container">
+                    <button onclick="prevSlide()">←</button>
+                    <button onclick="nextSlide()">→</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide" id="valentine-slide">
+        <div class="container">
+            <div class="text-container">
+                <h1>🌹🌹💝 Will you be my Valentine? 💝🌹🌹</h1>
+                <button onclick="yesResponse()">Yes</button>
+                <button id="no-btn" onclick="noResponse()">No</button>
+                <div class="image-container">
+                    <img class="memory" src="holdinghand.JPG" alt="Your Photo 1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="slide" id="sad-slide">
+        <h1>😢😢😢😭😭😭🥺🥺🥺</h1>
+        <p>Jau Kattiiii kattiiiii katiiiii kasto k baby ta </p>
+        <p>You have no other option other than to say yes</p>
+        <button onclick="askAgain()">Say yes</button>
+    </div>
+
+    <div class="slide" id="happy-slide">
+        <img class="child2" src="valentine.jpg" alt="Your Photo 1">
+        <h1>Happy Valentine's Day</h1>
+        <p id="wish">Thank you soo much for loving me honey, you have loved, supported, helped, nurtured, cared for me
+            and much
+            more, You have always been there for me, You have made me happiest and luckiest,
+            I want to be with you every moment, every joy, every challenge, every laugh, every tear, every dream, every
+            saddness and every
+            adventure. No matter where life takes us and what happens, my heart will always belong to you. I love you
+            always and forever ♾️ 1/0
+        </p>
+    </div>
+
+    <audio id="bg-music" autoplay loop>
+        <source src="audio.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            let currentSlide = 0;
+            const slides = document.querySelectorAll(".slide");
+            const music = document.getElementById("bg-music");
+
+            // Play background music automatically with volume adjustment
+            music.volume = 0.6; // Lower volume
+            music.play().catch(() => {
+                document.addEventListener("click", () => music.play(), { once: true });
+            });
+
+            function nextSlide() {
+                if (currentSlide < slides.length - 1) {
+                    slides[currentSlide].classList.remove("active");
+                    currentSlide++;
+                    slides[currentSlide].classList.add("active");
+                }
+            }
+
+            function prevSlide() {
+                if (currentSlide > 0) {
+                    slides[currentSlide].classList.remove("active");
+                    currentSlide--;
+                    slides[currentSlide].classList.add("active");
+                }
+            }
+
+            function yesResponse() {
+                slides[currentSlide].classList.remove("active");
+                document.getElementById("happy-slide").classList.add("active");
+            }
+
+            function noResponse() {
+                slides[currentSlide].classList.remove("active");
+                document.getElementById("sad-slide").classList.add("active");
+            }
+
+            function askAgain() {
+                document.getElementById("sad-slide").classList.remove("active");
+                document.getElementById("valentine-slide").classList.add("active");
+            }
+
+            // Automatically Change Image in Frame
+            let currentImageIndex = 0;
+            const images = document.querySelectorAll('.photo');
+            setInterval(() => {
+                images.forEach(image => image.style.display = 'none');
+                currentImageIndex = (currentImageIndex + 1) % images.length;
+                images[currentImageIndex].style.display = 'block';
+            }, 2000); // Change every 2 seconds
+
+            // Make functions global
+            window.nextSlide = nextSlide;
+            window.yesResponse = yesResponse;
+            window.noResponse = noResponse;
+            window.askAgain = askAgain;
+            window.prevSlide = prevSlide; // Added prevSlide function to global scope
+        });
+
+    </script>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background: url('birthday.webp') no-repeat center center/cover;
+            color: #4a4a4a;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Slide Layout */
+        .slide {
+            display: none;
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            text-align: center;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        /* Active Slide */
+        .slide.active {
+            display: block;
+            margin-top: 100px;
+        }
+
+        /* Elegant Text Animation */
+        .animate-text {
+            font-size: 32px;
+            font-weight: bold;
+            color: #ff69b4;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Frame-like Container */
+        .content-container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 500px;
+            margin: 20px auto;
+        }
+
+        /* Image Frame */
+        #photo-frame {
+            border: 5px solid #ffb6c1;
+            border-radius: 12px;
+            padding: 10px;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 250px;
+            overflow: hidden;
+        }
+
+        .photo {
+            display: none;
+            width: 280px;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+
+
+        #photo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+
+        /* Birthday Text */
+        .birthday-text {
+            font-size: 18px;
+            color: #ff4081;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        /* Button Styling */
+        button {
+            background: #ff4081;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 25px;
+            margin-top: 15px;
+            transition: 0.3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        #wish {
+            background-color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            height: 400px;
+        }
+
+
+        .image-container {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .memory {
+            width: 100%;
+            max-width: 300px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .child {
+            width: 100%;
+            max-width: 500px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .child1 {
+            width: 100%;
+            max-width: 300px;
+            height: 310px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .child2 {
+            width: 100%;
+            max-width: 350px;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff4081;
+        }
+
+
+        button {
+            background: #ff4081;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 25px;
+            margin-top: 10px;
+            margin-right: 10px;
+            transition: 0.3s ease-in-out;
+        }
+
+
+        /* Responsive layout */
+        @media screen and (max-width: 768px) {
+            .container {
+                align-items: center;
+            }
+
+            .image-container {
+                margin-bottom: 20px;
+            }
+
+            .text-container {
+                text-align: center;
+            }
+        }
+    </style>
+
+</body>
+
+</html>
